@@ -11,6 +11,14 @@
 - **现有问题：** 长期记忆、用户画像、个性化生成与主动交互仍分散在不同研究线索中，缺少统一组织框架。
 - **本文主线：** 用"理解人—恰当回应人—主动关心人"重新组织技术组件、代表方法和研究缺口。
 
+**相关综述：**
+
+- [A Survey on the Memory Mechanism of LLM based Agents](https://arxiv.org/abs/2404.13501)（ACM TOIS 2025）
+- [Memory in the Age of AI Agents](https://arxiv.org/abs/2512.13564)（arXiv 2025）
+- [Personalization of Large Language Models: A Survey](https://arxiv.org/abs/2411.00027)（arXiv 2024）
+- [A Survey on Proactive Dialogue Systems](https://arxiv.org/abs/2305.02750)（IJCAI 2023）
+- [Proactive Conversational AI: A Comprehensive Survey](https://doi.org/10.1145/3715097)（ACM TOIS 2025）
+
 ---
 
 ## 第二章 Personal Agent 的定义与能力框架
@@ -18,6 +26,8 @@
 ### 2.1 从通用智能体到 Personal Agent
 
 比较任务型 Agent、个性化系统和数字陪伴系统，说明长期服务为何要跨会话保留经历、状态、偏好与目标。比较重点：任务完成 · 长期连续性 · 用户特定性。
+
+本领域两块基石：[Generative Agents](https://arxiv.org/abs/2304.03442)（UIST 2023）用"记忆流—反思—规划"确立智能体长期行为范式；[CoALA](https://arxiv.org/abs/2309.02427)（TMLR 2024）划定工作/情景/语义/程序性记忆的认知架构，成为后续工作的默认框架。
 
 ### 2.2 Personal Agent 的操作性定义
 
@@ -45,8 +55,16 @@
 - [GAM](https://arxiv.org/abs/2604.12285)（arXiv 2026）：分层图记忆解耦编码与巩固，兼顾效率一致性
 - [M3-Agent](https://arxiv.org/abs/2508.09736)（arXiv 2025）：多模态实体中心记忆图，RL 训练迭代推理
 - [M2A](https://arxiv.org/abs/2602.07624)（arXiv 2026）：双层混合记忆在线更新，长期多模态个性化
-- 经典奠基：[Generative Agents](https://arxiv.org/abs/2304.03442)（UIST 2023）· [CoALA](https://arxiv.org/abs/2309.02427)（TMLR 2024）· [MemGPT](https://arxiv.org/abs/2310.08560)（2023）
-- 经典记忆系统：[MemoryBank](https://arxiv.org/abs/2305.10250)（AAAI 2024）· [Mem0](https://arxiv.org/abs/2504.19413)（2025）· [Zep](https://arxiv.org/abs/2501.13956)（2025）· [A-Mem](https://arxiv.org/abs/2502.12110)（2025）· [MemoryOS](https://arxiv.org/abs/2506.06326)（EMNLP 2025）· [MemOS](https://arxiv.org/abs/2507.03724)（2025）· [Memory3](https://arxiv.org/abs/2407.01178)（2024）· [MemoryLLM/M+](https://arxiv.org/abs/2402.04624)（ICML 2024）· [MemInsight](https://arxiv.org/abs/2503.21760)（2025）
+- [MemGPT](https://arxiv.org/abs/2310.08560)（2023）：借操作系统虚拟内存思想分层管理上下文
+- [MemoryBank](https://arxiv.org/abs/2305.10250)（AAAI 2024）：遗忘曲线启发的长期记忆机制
+- [Mem0](https://arxiv.org/abs/2504.19413)（2025）：抽取-更新式事实记忆层
+- [Zep](https://arxiv.org/abs/2501.13956)（2025）：双时态知识图谱记忆
+- [A-Mem](https://arxiv.org/abs/2502.12110)（2025）：卡片盒笔记法启发的自组织记忆
+- [MemoryOS](https://arxiv.org/abs/2506.06326)（EMNLP 2025）：三层记忆的操作系统式管理
+- [MemOS](https://arxiv.org/abs/2507.03724)（2025）：统一三类记忆的调度与演化
+- [Memory3](https://arxiv.org/abs/2407.01178)（2024）：显式记忆作为第三种知识形态
+- [MemoryLLM/M+](https://arxiv.org/abs/2402.04624)（ICML 2024）：参数内自可更新记忆池
+- [GraphRAG](https://arxiv.org/abs/2404.16130)（2024）：知识图谱式记忆表示
 
 ### 3.2 发现用户的稳定特点（记忆写入与更新机制）
 
@@ -57,7 +75,6 @@
 - [Inside Out](https://arxiv.org/abs/2601.05171)（arXiv 2026）：PersonaTree 核心记忆树，可控演化的用户画像
 - [M2A](https://arxiv.org/abs/2602.07624)（arXiv 2026）：双层混合记忆的在线更新
 - [STALE](https://arxiv.org/abs/2605.06527)（arXiv 2026）：测记忆失效——能否识别并修正过时用户状态
-- 经典：[HippoRAG](https://arxiv.org/abs/2405.14831)（NeurIPS 2024）
 
 ### 3.3 理解特点背后的情境（用户记忆的检索策略）
 
@@ -68,7 +85,9 @@
 - [MemTree](https://arxiv.org/abs/2410.14052)（ICLR 2025）
 - [GAM](https://arxiv.org/abs/2604.12285)（arXiv 2026）
 - [M3-Agent](https://arxiv.org/abs/2508.09736)（arXiv 2025）
-- 经典检索：[RAPTOR](https://arxiv.org/abs/2401.18059)（ICLR 2024）· [HippoRAG](https://arxiv.org/abs/2405.14831)（NeurIPS 2024）· [GraphRAG](https://arxiv.org/abs/2404.16130)（2024）· [MemoRAG](https://arxiv.org/abs/2409.05591)（2024）
+- [RAPTOR](https://arxiv.org/abs/2401.18059)（ICLR 2024）：递归抽象处理的树形层级检索
+- [HippoRAG](https://arxiv.org/abs/2405.14831)（NeurIPS 2024）：海马体索引理论启发，KG+PageRank 多跳检索
+- [MemoRAG](https://arxiv.org/abs/2409.05591)（2024）：全局记忆模型生成检索线索，引导证据检索
 
 ### 3.4 理解人的变化与不确定性（用户模型构建与人物推断）
 
@@ -103,7 +122,6 @@
 - [LaMP](https://arxiv.org/abs/2304.11406)（ACL 2023）：首个 LLM 个性化基准
 - [PRIME](https://arxiv.org/abs/2507.04607)（arXiv 2025）：认知双记忆模型加个性化慢思考
 - [DPL](https://arxiv.org/abs/2503.02450)（arXiv 2025）：用户间差异感知建模，提取结构化差异定制生成
-- 经典：[Personalization of LLMs: A Survey](https://arxiv.org/abs/2411.00027)（2024）
 
 ### 4.2 让回答符合个人偏好（回应动作与交互策略选择）
 
@@ -113,7 +131,7 @@
 
 - [PereGRM](https://arxiv.org/abs/2606.00728)（arXiv 2026）：个性化共情奖励建模，按用户特质自适应共情策略（含 PersonaEmp 数据集）
 - [ACT](https://arxiv.org/abs/2406.00222)（ICLR 2025）：动作对比自训练，教会多轮代理主动澄清歧义
-- 经典：[CLAM](https://arxiv.org/abs/2212.07769)（2022）：选择性检测歧义并生成澄清问题
+- [CLAM](https://arxiv.org/abs/2212.07769)（2022）：选择性检测歧义并生成澄清问题
 
 ### 4.3 根据用户和情境选择回应方式（回应生成与个性化表达）
 
@@ -125,7 +143,9 @@
 - [PRIME](https://arxiv.org/abs/2507.04607)（arXiv 2025）
 - [DPL](https://arxiv.org/abs/2503.02450)（arXiv 2025）
 - [PereGRM](https://arxiv.org/abs/2606.00728)（arXiv 2026）
-- 个性化表达经典：[PER-PCS](https://arxiv.org/abs/2406.10471)（EMNLP 2024）· [BiPO](https://arxiv.org/abs/2406.00045)（2024）· [Steerable Chatbots](https://arxiv.org/abs/2505.04260)（2025）
+- [PER-PCS](https://arxiv.org/abs/2406.10471)（EMNLP 2024）：共享参数片段组装个性化适配器
+- [BiPO](https://arxiv.org/abs/2406.00045)（2024）：双向偏好优化生成转向向量
+- [Steerable Chatbots](https://arxiv.org/abs/2505.04260)（2025）：偏好激活转向，推理时对齐用户偏好
 
 ### 4.4 在长期互动中调整回应（回应评估、边界控制与反馈校准）
 
@@ -136,7 +156,7 @@
 - [OP-Bench](https://arxiv.org/abs/2601.13722)（arXiv 2026）：首个过度个性化基准，定义无关/重复/谄媚三类
 - [PENGUIN](https://arxiv.org/abs/2505.18882)（NeurIPS 2025）：个性化安全基准与规划式代理（含 RAISE 信息选择引擎）
 - [PAHF](https://arxiv.org/abs/2602.16173)（arXiv 2026）：事前澄清加事后反馈双通道在线学习
-- 经典：[PET](https://arxiv.org/abs/2509.24189)（2025）：偏好演化追踪
+- [PET](https://arxiv.org/abs/2509.24189)（2025）：偏好演化追踪
 
 **本章深度递进：** 回答正确 → 内容适合这个人 → 回应方式适合这个人 → 长期互动越来越合适
 
@@ -152,7 +172,7 @@
 
 - [PASK](https://arxiv.org/abs/2604.08000)（arXiv 2026）：需求检测 + 自演化长期记忆 + 流式主动 Agent 框架
 - [Vinci2](https://arxiv.org/abs/2607.11523)（ECCV 2026）：首个第一视角主动服务基准 EgoServe 与免训练记忆增强智能体 EgoMemo
-- 经典：[Proactive Agent](https://arxiv.org/abs/2410.12361)（2024）：ProactiveBench，从被动响应转向主动协助
+- [Proactive Agent](https://arxiv.org/abs/2410.12361)（2024）：ProactiveBench，从被动响应转向主动协助
 
 ### 5.2 判断需要是否真实、重要（主动帮助目标与内容规划）
 
@@ -182,7 +202,6 @@
 
 - [ProPerSim](https://arxiv.org/abs/2509.21730)（arXiv 2025）
 - [EOPA](https://arxiv.org/abs/2608.04416)（arXiv 2026）
-- 综述：[A Survey on Proactive Dialogue Systems](https://arxiv.org/abs/2305.02750)（IJCAI 2023）· [Proactive Conversational AI Survey](https://doi.org/10.1145/3715097)（ACM TOIS 2025）
 
 **本章逻辑：** 按规则提醒 → 预测潜在需要 → 判断是否应该介入 → 学会怎样长期、适度地主动
 
