@@ -45,7 +45,8 @@
 - [GAM](https://arxiv.org/abs/2604.12285)（arXiv 2026）：分层图记忆解耦编码与巩固，兼顾效率一致性
 - [M3-Agent](https://arxiv.org/abs/2508.09736)（arXiv 2025）：多模态实体中心记忆图，RL 训练迭代推理
 - [M2A](https://arxiv.org/abs/2602.07624)（arXiv 2026）：双层混合记忆在线更新，长期多模态个性化
-- 经典：[MemGPT](https://arxiv.org/abs/2310.08560)（2023）· [Generative Agents](https://arxiv.org/abs/2304.03442)（UIST 2023）· [MemoryBank](https://arxiv.org/abs/2305.10250)（AAAI 2024）· [Zep](https://arxiv.org/abs/2501.13956)（2025）· [A-Mem](https://arxiv.org/abs/2502.12110)（2025）
+- 经典奠基：[Generative Agents](https://arxiv.org/abs/2304.03442)（UIST 2023）· [CoALA](https://arxiv.org/abs/2309.02427)（TMLR 2024）· [MemGPT](https://arxiv.org/abs/2310.08560)（2023）
+- 经典记忆系统：[MemoryBank](https://arxiv.org/abs/2305.10250)（AAAI 2024）· [Mem0](https://arxiv.org/abs/2504.19413)（2025）· [Zep](https://arxiv.org/abs/2501.13956)（2025）· [A-Mem](https://arxiv.org/abs/2502.12110)（2025）· [MemoryOS](https://arxiv.org/abs/2506.06326)（EMNLP 2025）· [MemOS](https://arxiv.org/abs/2507.03724)（2025）· [Memory3](https://arxiv.org/abs/2407.01178)（2024）· [MemoryLLM/M+](https://arxiv.org/abs/2402.04624)（ICML 2024）· [MemInsight](https://arxiv.org/abs/2503.21760)（2025）
 
 ### 3.2 发现用户的稳定特点（记忆写入与更新机制）
 
@@ -67,6 +68,7 @@
 - [MemTree](https://arxiv.org/abs/2410.14052)（ICLR 2025）
 - [GAM](https://arxiv.org/abs/2604.12285)（arXiv 2026）
 - [M3-Agent](https://arxiv.org/abs/2508.09736)（arXiv 2025）
+- 经典检索：[RAPTOR](https://arxiv.org/abs/2401.18059)（ICLR 2024）· [HippoRAG](https://arxiv.org/abs/2405.14831)（NeurIPS 2024）· [GraphRAG](https://arxiv.org/abs/2404.16130)（2024）· [MemoRAG](https://arxiv.org/abs/2409.05591)（2024）
 
 ### 3.4 理解人的变化与不确定性（用户模型构建与人物推断）
 

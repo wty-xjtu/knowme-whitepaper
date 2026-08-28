@@ -8,8 +8,45 @@
 
 **核心系统闭环：** 个人证据 → 用户模型 → 互动决策 → 用户反馈 → 持续更新
 
+---
+
+## 🎯 必读经典（Agent Memory 与 Personal Agent 领域）
+
+### 奠基工作与认知框架
+
+- [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) — UIST 2023 — 记忆流+反思+规划，智能体长期行为模拟的开山之作
+- [Cognitive Architectures for Language Agents (CoALA)](https://arxiv.org/abs/2309.02427) — TMLR 2024 — 智能体记忆分类的"默认"认知框架：工作/情景/语义/程序性记忆
+- [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560) — arXiv 2023 — 借操作系统虚拟内存思想分层管理 LLM 上下文（Letta 前身）
+
+### 记忆系统与工程框架
+
+- [MemoryBank](https://arxiv.org/abs/2305.10250) — AAAI 2024 — 艾宾浩斯遗忘曲线启发的长期记忆机制
+- [Mem0](https://arxiv.org/abs/2504.19413) — arXiv 2025 — 生产级可扩展记忆层：抽取-更新式事实记忆（59k+ star 开源框架）
+- [Zep: A Temporal Knowledge Graph Architecture for Agent Memory](https://arxiv.org/abs/2501.13956) — arXiv 2025 — 双时态知识图谱记录事实有效期（Graphiti 引擎）
+- [A-Mem: Agentic Memory for LLM Agents](https://arxiv.org/abs/2502.12110) — arXiv 2025 — 卡片盒笔记法（Zettelkasten）启发的自组织记忆网络
+- [MemoryOS](https://arxiv.org/abs/2506.06326) — EMNLP 2025 — 短期/中期/长期三层记忆的操作系统式管理，热度驱动动态升级
+- [MemOS: A Memory OS for AI System](https://arxiv.org/abs/2507.03724) — arXiv 2025 — 统一明文/激活/参数三类记忆的调度与演化，MemCube 记忆单元
+- [HippoRAG](https://arxiv.org/abs/2405.14831) — NeurIPS 2024 — 海马体索引理论启发，KG+PageRank 检索
+- [RAPTOR](https://arxiv.org/abs/2401.18059) — ICLR 2024 — 递归抽象处理的树形组织检索，层级记忆检索经典
+- [GraphRAG](https://arxiv.org/abs/2404.16130) — arXiv 2024 — 从局部到全局的知识图谱式检索与摘要
+- [MemoRAG](https://arxiv.org/abs/2409.05591) — arXiv 2024 — 全局记忆模型生成检索线索，引导证据检索
+- [MemInsight](https://arxiv.org/abs/2503.21760) — arXiv 2025 — 自主属性挖掘，增强记忆的检索与推荐
+- [Memory3](https://arxiv.org/abs/2407.01178) — arXiv 2024 — 显式记忆作为独立于参数与上下文的第三种知识形态
+- [MemoryLLM](https://arxiv.org/abs/2402.04624) — ICML 2024 — 参数内自可更新记忆池；扩展版 [M+](https://arxiv.org/abs/2502.00592) 支持长期记忆
+
+### 领域综述
+
+- [A Survey on the Memory Mechanism of LLM based Agents](https://arxiv.org/abs/2404.13501) — ACM TOIS 2025 — 最早的智能体记忆系统综述之一：写什么/怎么管/怎么读
+- [Memory in the Age of AI Agents](https://arxiv.org/abs/2512.13564) — arXiv 2025 — 47 位作者大综述：形式/功能/动态三轴分类法
+- [Personalization of Large Language Models: A Survey](https://arxiv.org/abs/2411.00027) — arXiv 2024 — LLM 个性化的数据、技术、评测与应用分类框架
+- [A Survey on Proactive Dialogue Systems](https://arxiv.org/abs/2305.02750) — IJCAI 2023 — 首篇系统综述主动对话系统
+- [Proactive Conversational AI: A Comprehensive Survey](https://doi.org/10.1145/3715097) — ACM TOIS 2025 — 覆盖各类对话中主动性的最新综述
+
+---
+
 ## 📑 目录
 
+- [必读经典](#-必读经典agent-memory-与-personal-agent-领域)
 - [第一章 引言](#第一章-引言)
 - [第二章 定义与能力框架](#第二章-定义与能力框架)
 - [第三章 理解人](#第三章-理解人)
@@ -34,22 +71,13 @@
 
 ## 第一章 引言
 
-Personal Agent 正从单次任务工具，走向长期服务具体用户的智能体。现有研究中长期记忆、用户画像、个性化生成与主动交互仍分散在不同研究线索中，本综述用统一能力框架重新组织。
-
-相关综述：
-
-- [Personalization of Large Language Models: A Survey](https://arxiv.org/abs/2411.00027) — arXiv 2024 — LLM 个性化的数据、技术、评测与应用分类框架
-- [A Survey on Proactive Dialogue Systems](https://arxiv.org/abs/2305.02750) — IJCAI 2023 — 首篇系统综述主动对话系统
-- [Proactive Conversational AI: A Comprehensive Survey](https://doi.org/10.1145/3715097) — ACM TOIS 2025 — 覆盖各类对话中主动性的最新综述
+Personal Agent 正从单次任务工具，走向长期服务具体用户的智能体。现有研究中长期记忆、用户画像、个性化生成与主动交互仍分散在不同研究线索中，本综述用统一能力框架重新组织。领域综述见上方 [必读经典 · 领域综述](#领域综述) 板块。
 
 ## 第二章 定义与能力框架
 
 界定 Personal Agent 与一般 Agent 的根本区别（任务完成 · 长期连续性 · 用户特定性），从用户授权、跨时间个人证据、动态用户模型、个性化行动、适度主动和用户控制六个方面给出操作性定义。
 
-基础经典：
-
-- [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) — UIST 2023 — 记忆流+反思+规划，智能体长期行为模拟的开山之作
-- [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560) — arXiv 2023 — 借操作系统虚拟内存思想管理 LLM 上下文记忆
+核心参考：[Generative Agents](https://arxiv.org/abs/2304.03442)、[CoALA](https://arxiv.org/abs/2309.02427)、[MemGPT](https://arxiv.org/abs/2310.08560)（见必读经典板块）。
 
 ## 第三章 理解人
 
@@ -61,9 +89,8 @@ Personal Agent 正从单次任务工具，走向长期服务具体用户的智�
 - [GAM](https://arxiv.org/abs/2604.12285) — arXiv 2026 — 分层图记忆解耦编码与巩固，兼顾效率一致性
 - [M3-Agent](https://arxiv.org/abs/2508.09736) — arXiv 2025 — 多模态实体中心记忆图，RL 训练迭代推理
 - [M2A](https://arxiv.org/abs/2602.07624) — arXiv 2026 — 双层混合记忆在线更新，长期多模态个性化
-- [MemoryBank](https://arxiv.org/abs/2305.10250) — AAAI 2024 — 艾宾浩斯遗忘曲线启发的长期记忆机制
-- [Zep](https://arxiv.org/abs/2501.13956) — arXiv 2025 — 双时态知识图谱记录事实有效期
-- [A-Mem](https://arxiv.org/abs/2502.12110) — arXiv 2025 — 卡片盒笔记法启发的自组织智能体记忆
+
+经典记忆框架（详见 [必读经典板块](#-必读经典agent-memory-与-personal-agent-领域)）：MemGPT · MemoryBank · Mem0 · Zep · A-Mem · MemoryOS · MemOS · RAPTOR · GraphRAG · HippoRAG · Memory3 · MemoryLLM/M+
 
 ### 3.2 记忆写入与更新机制
 
@@ -71,7 +98,7 @@ Personal Agent 正从单次任务工具，走向长期服务具体用户的智�
 
 - [Inside Out](https://arxiv.org/abs/2601.05171) — arXiv 2026 — PersonaTree 核心记忆树，可控演化的用户画像
 - [STALE](https://arxiv.org/abs/2605.06527) — arXiv 2026 — 评测 LLM 智能体能否识别记忆失效并修正过时用户状态
-- [HippoRAG](https://arxiv.org/abs/2405.14831) — NeurIPS 2024 — 海马体索引理论启发，KG+PageRank 检索
+- [MemInsight](https://arxiv.org/abs/2503.21760) — arXiv 2025 — 自主属性挖掘增强记忆
 
 ### 3.3 记忆检索策略
 
@@ -80,6 +107,9 @@ Personal Agent 正从单次任务工具，走向长期服务具体用户的智�
 - [MemTree](https://arxiv.org/abs/2410.14052) — ICLR 2025
 - [GAM](https://arxiv.org/abs/2604.12285) — arXiv 2026
 - [M3-Agent](https://arxiv.org/abs/2508.09736) — arXiv 2025
+- [HippoRAG](https://arxiv.org/abs/2405.14831) — NeurIPS 2024 — KG+PageRank 多跳检索
+- [RAPTOR](https://arxiv.org/abs/2401.18059) — ICLR 2024 — 树形层级检索
+- [MemoRAG](https://arxiv.org/abs/2409.05591) — arXiv 2024 — 全局记忆引导检索
 
 ### 3.4 用户模型与人物推断
 
