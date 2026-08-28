@@ -66,6 +66,15 @@
 - [2024/02] MEMORYLLM: Towards Self-Updatable Large Language Models. [paper](https://arxiv.org/abs/2402.04624)
 - [2025/02] M+: Extending MemoryLLM with Scalable Long-Term Memory. [paper](https://arxiv.org/abs/2502.00592)
 - [2024/04] From Local to Global: A Graph RAG Approach to Query-Focused Summarization. [paper](https://arxiv.org/abs/2404.16130)
+- [2023/05] Voyager: An Open-Ended Embodied Agent with Large Language Models. [paper](https://arxiv.org/abs/2305.16291)
+- [2024/06] Enhancing Long-Term Memory using Hierarchical Aggregate Tree for Retrieval Augmented Generation. [paper](https://arxiv.org/abs/2406.06124)
+- [2025/06] G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems. [paper](https://arxiv.org/abs/2506.07398)
+- [2025/08] Memory Decoder: A Pretrained, Plug-and-Play Memory for Large Language Models. [paper](https://arxiv.org/abs/2508.09874)
+- [2025/11] O-Mem: Omni Memory System for Personalized, Long Horizon, Self-Evolving Agents. [paper](https://arxiv.org/abs/2511.13593)
+- [2025/12] MMAG: Mixed Memory-Augmented Generation for Large Language Models Applications. [paper](https://arxiv.org/abs/2512.01710)
+- [2025/12] MemVerse: Multimodal Memory for Lifelong Learning Agents. [paper](https://arxiv.org/abs/2512.03627)
+- [2025/12] Memoria: A Scalable Agentic Memory Framework for Personalized Conversational AI. [paper](https://arxiv.org/abs/2512.12686)
+- [2025/12] Hindsight is 20/20: Building Agent Memory that Retains, Recalls, and Reflects. [paper](https://arxiv.org/abs/2512.12818)
 
 ### 3.2 发现用户的稳定特点（记忆写入与更新机制）
 
@@ -75,7 +84,12 @@
 
 - [2026/01] Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems. [paper](https://arxiv.org/abs/2601.05171)
 - [2025/03] MemInsight: Autonomous Memory Augmentation for LLM Agents. [paper](https://arxiv.org/abs/2503.21760)
-- [2026/05] STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?. [paper](https://arxiv.org/abs/2605.06527)
+- [2026/05] STALE: Can LLM Agents Know When Their Memories Are No Longer Valid? [paper](https://arxiv.org/abs/2605.06527)
+- [2023/03] Reflexion: Language Agents with Verbal Reinforcement Learning. [paper](https://arxiv.org/abs/2303.11366)
+- [2024/06] Towards Lifelong Dialogue Agents via Timeline-based Memory Management. [paper](https://arxiv.org/abs/2406.10996)
+- [2025/02] R³Mem: Bridging Memory Retention and Retrieval via Reversible Compression. [paper](https://arxiv.org/abs/2502.15957)
+- [2025/08] Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning. [paper](https://arxiv.org/abs/2508.19828)
+- [2025/08] Building Self-Evolving Agents via Experience-Driven Lifelong Learning: A Framework and Benchmark. [paper](https://arxiv.org/abs/2508.19005)
 
 ### 3.3 理解特点背后的情境（用户记忆的检索策略）
 
@@ -89,6 +103,7 @@
 - [2024/01] RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval. [paper](https://arxiv.org/abs/2401.18059)
 - [2024/05] HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models. [paper](https://arxiv.org/abs/2405.14831)
 - [2024/09] MemoRAG: Boosting Long Context Processing with Global Memory-Enhanced Retrieval Augmentation. [paper](https://arxiv.org/abs/2409.05591)
+- [2025/05] MemGuide: Intent-Driven Memory Selection for Goal-Oriented Multi-Session LLM Agents. [paper](https://arxiv.org/abs/2505.20231)
 
 ### 3.4 理解人的变化与不确定性（用户模型构建与人物推断）
 
@@ -100,13 +115,16 @@
 - [2026/04] PersonaVLM: Long-Term Personalized Multimodal LLMs. [paper](https://arxiv.org/abs/2604.13074)
 - [2026/04] EgoSelf: From Memory to Personalized Egocentric Assistant. [paper](https://arxiv.org/abs/2604.19564)
 - [2026/01] HumanLLM: Towards Personalized Understanding and Simulation of Human Nature. [paper](https://arxiv.org/abs/2601.15793)
+- [2025/10] Enabling Personalized Long-term Interactions in LLM-based Agents through Persistent Memory and User Profiles. [paper](https://arxiv.org/abs/2510.07925)
+- [2025/10] RGMem: Renormalization Group-inspired Memory Evolution for Language Agents. [paper](https://arxiv.org/abs/2510.16392)
+- [2025/12] Sophia: A Persistent Agent Framework of Artificial Life. [paper](https://arxiv.org/abs/2512.18202)
 
 **评测基准：**
 
 - [2024/02] LoCoMo: Evaluating Long-Term Conversational Memory in Multi-Session Dialogue. [paper](https://arxiv.org/abs/2402.17753)
 - [2024/10] LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory. [paper](https://arxiv.org/abs/2410.10813)
 - [2026/01] KnowMe-Bench: Benchmarking Person Understanding for Lifelong Digital Companions. [paper](https://arxiv.org/abs/2601.04745)
-- [2026/05] STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?. [paper](https://arxiv.org/abs/2605.06527)
+- [2026/05] STALE: Can LLM Agents Know When Their Memories Are No Longer Valid? [paper](https://arxiv.org/abs/2605.06527)
 
 **本章逻辑：** 记住什么 → 怎样形成认识 → 怎样长期维护 → 怎样验证理解是否正确
 
@@ -154,6 +172,7 @@
 - [2025/05] Personalized Safety in LLMs: A Benchmark and A Planning-Based Agent Approach. [paper](https://arxiv.org/abs/2505.18882)
 - [2026/02] Learning Personalized Agents from Human Feedback. [paper](https://arxiv.org/abs/2602.16173)
 - [2025/09] SPECTRA: Revealing the Full Spectrum of User Preferences via Distributional LLM Inference. [paper](https://arxiv.org/abs/2509.24189)
+- [2025/02] Unveiling Privacy Risks in LLM Agent Memory. [paper](https://arxiv.org/abs/2502.13172)
 
 **本章深度递进：** 回答正确 → 内容适合这个人 → 回应方式适合这个人 → 长期互动越来越合适
 
@@ -179,6 +198,7 @@
 
 - [2025/03] Interpersonal Memory Matters: A New Task for Proactive Dialogue Utilizing Conversational History. [paper](https://arxiv.org/abs/2503.05150)
 - [2025/09] ProPerSim: Developing Proactive and Personalized AI Assistants through User-Assistant Simulation. [paper](https://arxiv.org/abs/2509.21730)
+- [2025/09] PRINCIPLES: Synthetic Strategy Memory for Proactive Dialogue Agents. [paper](https://arxiv.org/abs/2509.17459)
 
 ### 5.3 权衡收益、打扰成本与介入时机（介入时机与沉默决策）
 
