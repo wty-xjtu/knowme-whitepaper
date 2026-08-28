@@ -13,11 +13,11 @@
 
 **相关综述：**
 
-- [A Survey on the Memory Mechanism of LLM based Agents](https://arxiv.org/abs/2404.13501)（ACM TOIS 2025）
-- [Memory in the Age of AI Agents](https://arxiv.org/abs/2512.13564)（arXiv 2025）
-- [Personalization of Large Language Models: A Survey](https://arxiv.org/abs/2411.00027)（arXiv 2024）
-- [A Survey on Proactive Dialogue Systems](https://arxiv.org/abs/2305.02750)（IJCAI 2023）
-- [Proactive Conversational AI: A Comprehensive Survey](https://doi.org/10.1145/3715097)（ACM TOIS 2025）
+- [2024/04] A Survey on the Memory Mechanism of Large Language Model based Agents. [paper](https://arxiv.org/abs/2404.13501)
+- [2025/12] Memory in the Age of AI Agents. [paper](https://arxiv.org/abs/2512.13564)
+- [2024/11] Personalization of Large Language Models: A Survey. [paper](https://arxiv.org/abs/2411.00027)
+- [2023/05] A Survey on Proactive Dialogue Systems: Problems, Methods, and Prospects. [paper](https://arxiv.org/abs/2305.02750)
+- Proactive Conversational AI: A Comprehensive Survey. [paper](https://doi.org/10.1145/3715097)
 
 ---
 
@@ -51,20 +51,21 @@
 
 **代表工作：**
 
-- [MemTree](https://arxiv.org/abs/2410.14052)（ICLR 2025）：动态树结构组织长期记忆，支持多抽象层检索
-- [GAM](https://arxiv.org/abs/2604.12285)（arXiv 2026）：分层图记忆解耦编码与巩固，兼顾效率一致性
-- [M3-Agent](https://arxiv.org/abs/2508.09736)（arXiv 2025）：多模态实体中心记忆图，RL 训练迭代推理
-- [M2A](https://arxiv.org/abs/2602.07624)（arXiv 2026）：双层混合记忆在线更新，长期多模态个性化
-- [MemGPT](https://arxiv.org/abs/2310.08560)（2023）：借操作系统虚拟内存思想分层管理上下文
-- [MemoryBank](https://arxiv.org/abs/2305.10250)（AAAI 2024）：遗忘曲线启发的长期记忆机制
-- [Mem0](https://arxiv.org/abs/2504.19413)（2025）：抽取-更新式事实记忆层
-- [Zep](https://arxiv.org/abs/2501.13956)（2025）：双时态知识图谱记忆
-- [A-Mem](https://arxiv.org/abs/2502.12110)（2025）：卡片盒笔记法启发的自组织记忆
-- [MemoryOS](https://arxiv.org/abs/2506.06326)（EMNLP 2025）：三层记忆的操作系统式管理
-- [MemOS](https://arxiv.org/abs/2507.03724)（2025）：统一三类记忆的调度与演化
-- [Memory3](https://arxiv.org/abs/2407.01178)（2024）：显式记忆作为第三种知识形态
-- [MemoryLLM/M+](https://arxiv.org/abs/2402.04624)（ICML 2024）：参数内自可更新记忆池
-- [GraphRAG](https://arxiv.org/abs/2404.16130)（2024）：知识图谱式记忆表示
+- [2024/10] From Isolated Conversations to Hierarchical Schemas: Dynamic Tree Memory Representation for LLMs. [paper](https://arxiv.org/abs/2410.14052)
+- [2026/04] GAM: Hierarchical Graph-based Agentic Memory for LLM Agents. [paper](https://arxiv.org/abs/2604.12285)
+- [2025/08] Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory. [paper](https://arxiv.org/abs/2508.09736)
+- [2026/02] M2A: Multimodal Memory Agent with Dual-Layer Hybrid Memory for Long-Term Personalized Interactions. [paper](https://arxiv.org/abs/2602.07624)
+- [2023/10] MemGPT: Towards LLMs as Operating Systems. [paper](https://arxiv.org/abs/2310.08560)
+- [2023/05] Memorybank: Enhancing Large Language Models with Long-Term Memory. [paper](https://arxiv.org/abs/2305.10250)
+- [2025/04] Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory. [paper](https://arxiv.org/abs/2504.19413)
+- [2025/01] Zep: A Temporal Knowledge Graph Architecture for Agent Memory. [paper](https://arxiv.org/abs/2501.13956)
+- [2025/02] A-MEM: Agentic Memory for LLM Agents. [paper](https://arxiv.org/abs/2502.12110)
+- [2025/06] Memory OS of AI Agent. [paper](https://arxiv.org/abs/2506.06326)
+- [2025/07] MemOS: A Memory OS for AI System. [paper](https://arxiv.org/abs/2507.03724)
+- [2024/07] Memory³: Language Modeling with Explicit Memory. [paper](https://arxiv.org/abs/2407.01178)
+- [2024/02] MEMORYLLM: Towards Self-Updatable Large Language Models. [paper](https://arxiv.org/abs/2402.04624)
+- [2025/02] M+: Extending MemoryLLM with Scalable Long-Term Memory. [paper](https://arxiv.org/abs/2502.00592)
+- [2024/04] From Local to Global: A Graph RAG Approach to Query-Focused Summarization. [paper](https://arxiv.org/abs/2404.16130)
 
 ### 3.2 发现用户的稳定特点（记忆写入与更新机制）
 
@@ -72,9 +73,9 @@
 
 **代表工作：**
 
-- [Inside Out](https://arxiv.org/abs/2601.05171)（arXiv 2026）：PersonaTree 核心记忆树，可控演化的用户画像
-- [M2A](https://arxiv.org/abs/2602.07624)（arXiv 2026）：双层混合记忆的在线更新
-- [STALE](https://arxiv.org/abs/2605.06527)（arXiv 2026）：测记忆失效——能否识别并修正过时用户状态
+- [2026/01] Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems. [paper](https://arxiv.org/abs/2601.05171)
+- [2025/03] MemInsight: Autonomous Memory Augmentation for LLM Agents. [paper](https://arxiv.org/abs/2503.21760)
+- [2026/05] STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?. [paper](https://arxiv.org/abs/2605.06527)
 
 ### 3.3 理解特点背后的情境（用户记忆的检索策略）
 
@@ -82,12 +83,12 @@
 
 **代表工作：**
 
-- [MemTree](https://arxiv.org/abs/2410.14052)（ICLR 2025）
-- [GAM](https://arxiv.org/abs/2604.12285)（arXiv 2026）
-- [M3-Agent](https://arxiv.org/abs/2508.09736)（arXiv 2025）
-- [RAPTOR](https://arxiv.org/abs/2401.18059)（ICLR 2024）：递归抽象处理的树形层级检索
-- [HippoRAG](https://arxiv.org/abs/2405.14831)（NeurIPS 2024）：海马体索引理论启发，KG+PageRank 多跳检索
-- [MemoRAG](https://arxiv.org/abs/2409.05591)（2024）：全局记忆模型生成检索线索，引导证据检索
+- [2024/10] From Isolated Conversations to Hierarchical Schemas: Dynamic Tree Memory Representation for LLMs. [paper](https://arxiv.org/abs/2410.14052)
+- [2026/04] GAM: Hierarchical Graph-based Agentic Memory for LLM Agents. [paper](https://arxiv.org/abs/2604.12285)
+- [2025/08] Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory. [paper](https://arxiv.org/abs/2508.09736)
+- [2024/01] RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval. [paper](https://arxiv.org/abs/2401.18059)
+- [2024/05] HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models. [paper](https://arxiv.org/abs/2405.14831)
+- [2024/09] MemoRAG: Boosting Long Context Processing with Global Memory-Enhanced Retrieval Augmentation. [paper](https://arxiv.org/abs/2409.05591)
 
 ### 3.4 理解人的变化与不确定性（用户模型构建与人物推断）
 
@@ -95,17 +96,17 @@
 
 **代表工作：**
 
-- [TiMem](https://arxiv.org/abs/2601.02845)（ACL 2026 Findings）：时间记忆树五层固化，从事实到人格画像
-- [PersonaVLM](https://arxiv.org/abs/2604.13074)（CVPR 2026）：多模态记忆库加人格演化
-- [EgoSelf](https://arxiv.org/abs/2604.19564)（arXiv 2026）：第一视角图记忆建模用户习惯
-- [KnowMe-Bench](https://arxiv.org/abs/2601.04745)（ACL 2026）：自传叙事三层评测，衡量对"人"的理解
-- [HumanLLM](https://arxiv.org/abs/2601.15793)（KDD 2026）：认知基因组数据集微调，模拟个人行为思维
+- [2026/01] TiMem: Temporal-Hierarchical Memory Consolidation for Long-Horizon Conversational Agents. [paper](https://arxiv.org/abs/2601.02845)
+- [2026/04] PersonaVLM: Long-Term Personalized Multimodal LLMs. [paper](https://arxiv.org/abs/2604.13074)
+- [2026/04] EgoSelf: From Memory to Personalized Egocentric Assistant. [paper](https://arxiv.org/abs/2604.19564)
+- [2026/01] HumanLLM: Towards Personalized Understanding and Simulation of Human Nature. [paper](https://arxiv.org/abs/2601.15793)
 
 **评测基准：**
 
-- [LoCoMo](https://arxiv.org/abs/2402.17753)（ACL 2024）：超长对话记忆基准
-- [LongMemEval](https://arxiv.org/abs/2410.10813)（ICLR 2025）：五大记忆能力评测
-- [STALE](https://arxiv.org/abs/2605.06527)（arXiv 2026）：记忆时效性评测
+- [2024/02] LoCoMo: Evaluating Long-Term Conversational Memory in Multi-Session Dialogue. [paper](https://arxiv.org/abs/2402.17753)
+- [2024/10] LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory. [paper](https://arxiv.org/abs/2410.10813)
+- [2026/01] KnowMe-Bench: Benchmarking Person Understanding for Lifelong Digital Companions. [paper](https://arxiv.org/abs/2601.04745)
+- [2026/05] STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?. [paper](https://arxiv.org/abs/2605.06527)
 
 **本章逻辑：** 记住什么 → 怎样形成认识 → 怎样长期维护 → 怎样验证理解是否正确
 
@@ -119,9 +120,9 @@
 
 **代表工作：**
 
-- [LaMP](https://arxiv.org/abs/2304.11406)（ACL 2023）：首个 LLM 个性化基准
-- [PRIME](https://arxiv.org/abs/2507.04607)（arXiv 2025）：认知双记忆模型加个性化慢思考
-- [DPL](https://arxiv.org/abs/2503.02450)（arXiv 2025）：用户间差异感知建模，提取结构化差异定制生成
+- [2023/04] LaMP: When Large Language Models Meet Personalization. [paper](https://arxiv.org/abs/2304.11406)
+- [2025/07] PRIME: Large Language Model Personalization with Cognitive Dual-Memory and Personalized Thought Process. [paper](https://arxiv.org/abs/2507.04607)
+- [2025/03] Measuring What Makes You Unique: Difference-Aware User Modeling for Enhancing LLM Personalization. [paper](https://arxiv.org/abs/2503.02450)
 
 ### 4.2 让回答符合个人偏好（回应动作与交互策略选择）
 
@@ -129,9 +130,9 @@
 
 **代表工作：**
 
-- [PereGRM](https://arxiv.org/abs/2606.00728)（arXiv 2026）：个性化共情奖励建模，按用户特质自适应共情策略（含 PersonaEmp 数据集）
-- [ACT](https://arxiv.org/abs/2406.00222)（ICLR 2025）：动作对比自训练，教会多轮代理主动澄清歧义
-- [CLAM](https://arxiv.org/abs/2212.07769)（2022）：选择性检测歧义并生成澄清问题
+- [2026/06] From Empathy to Personalized Empathy: Adapting Empathetic Strategies to Individual Users. [paper](https://arxiv.org/abs/2606.00728)
+- [2024/06] Learning to Clarify: Multi-turn Conversations with Action-Based Contrastive Self-Training. [paper](https://arxiv.org/abs/2406.00222)
+- [2022/12] CLAM: Selective Clarification for Ambiguous Questions with Generative Language Models. [paper](https://arxiv.org/abs/2212.07769)
 
 ### 4.3 根据用户和情境选择回应方式（回应生成与个性化表达）
 
@@ -139,13 +140,9 @@
 
 **代表工作：**
 
-- [LaMP](https://arxiv.org/abs/2304.11406)（ACL 2023）
-- [PRIME](https://arxiv.org/abs/2507.04607)（arXiv 2025）
-- [DPL](https://arxiv.org/abs/2503.02450)（arXiv 2025）
-- [PereGRM](https://arxiv.org/abs/2606.00728)（arXiv 2026）
-- [PER-PCS](https://arxiv.org/abs/2406.10471)（EMNLP 2024）：共享参数片段组装个性化适配器
-- [BiPO](https://arxiv.org/abs/2406.00045)（2024）：双向偏好优化生成转向向量
-- [Steerable Chatbots](https://arxiv.org/abs/2505.04260)（2025）：偏好激活转向，推理时对齐用户偏好
+- [2024/06] Personalized Pieces: Efficient Personalized Large Language Models through Collaborative Efforts. [paper](https://arxiv.org/abs/2406.10471)
+- [2024/06] Personalized Steering of Large Language Models: Versatile Steering Vectors Through Bi-directional Preference Optimization. [paper](https://arxiv.org/abs/2406.00045)
+- [2025/05] Steerable Chatbots: Exploring Personalization Control Interfaces via LLM Activation Steering. [paper](https://arxiv.org/abs/2505.04260)
 
 ### 4.4 在长期互动中调整回应（回应评估、边界控制与反馈校准）
 
@@ -153,10 +150,10 @@
 
 **代表工作：**
 
-- [OP-Bench](https://arxiv.org/abs/2601.13722)（arXiv 2026）：首个过度个性化基准，定义无关/重复/谄媚三类
-- [PENGUIN](https://arxiv.org/abs/2505.18882)（NeurIPS 2025）：个性化安全基准与规划式代理（含 RAISE 信息选择引擎）
-- [PAHF](https://arxiv.org/abs/2602.16173)（arXiv 2026）：事前澄清加事后反馈双通道在线学习
-- [PET](https://arxiv.org/abs/2509.24189)（2025）：偏好演化追踪
+- [2026/01] OP-Bench: Benchmarking Over-Personalization for Memory-Augmented Personalized Conversational Agents. [paper](https://arxiv.org/abs/2601.13722)
+- [2025/05] Personalized Safety in LLMs: A Benchmark and A Planning-Based Agent Approach. [paper](https://arxiv.org/abs/2505.18882)
+- [2026/02] Learning Personalized Agents from Human Feedback. [paper](https://arxiv.org/abs/2602.16173)
+- [2025/09] SPECTRA: Revealing the Full Spectrum of User Preferences via Distributional LLM Inference. [paper](https://arxiv.org/abs/2509.24189)
 
 **本章深度递进：** 回答正确 → 内容适合这个人 → 回应方式适合这个人 → 长期互动越来越合适
 
@@ -170,9 +167,9 @@
 
 **代表工作：**
 
-- [PASK](https://arxiv.org/abs/2604.08000)（arXiv 2026）：需求检测 + 自演化长期记忆 + 流式主动 Agent 框架
-- [Vinci2](https://arxiv.org/abs/2607.11523)（ECCV 2026）：首个第一视角主动服务基准 EgoServe 与免训练记忆增强智能体 EgoMemo
-- [Proactive Agent](https://arxiv.org/abs/2410.12361)（2024）：ProactiveBench，从被动响应转向主动协助
+- [2026/04] PASK: Toward Intent-Aware Proactive Agents with Long-Term Memory. [paper](https://arxiv.org/abs/2604.08000)
+- [2026/07] Vinci2: Providing Proactive Assistance in Continuous Egocentric Videos. [paper](https://arxiv.org/abs/2607.11523)
+- [2024/10] Proactive Agent: Shifting LLM Agents from Reactive Responses to Active Assistance. [paper](https://arxiv.org/abs/2410.12361)
 
 ### 5.2 判断需要是否真实、重要（主动帮助目标与内容规划）
 
@@ -180,9 +177,8 @@
 
 **代表工作：**
 
-- [MapDia](https://arxiv.org/abs/2503.05150)（CoNLL 2025）：记忆感知主动对话任务，适时转向历史话题
-- [ProPerSim](https://arxiv.org/abs/2509.21730)（arXiv 2025）：家庭场景用户-助手仿真，学习合适时机的个性化推荐
-- [Vinci2](https://arxiv.org/abs/2607.11523)（ECCV 2026）
+- [2025/03] Interpersonal Memory Matters: A New Task for Proactive Dialogue Utilizing Conversational History. [paper](https://arxiv.org/abs/2503.05150)
+- [2025/09] ProPerSim: Developing Proactive and Personalized AI Assistants through User-Assistant Simulation. [paper](https://arxiv.org/abs/2509.21730)
 
 ### 5.3 权衡收益、打扰成本与介入时机（介入时机与沉默决策）
 
@@ -190,9 +186,9 @@
 
 **代表工作：**
 
-- [EOPA](https://arxiv.org/abs/2608.04416)（arXiv 2026）：证据驱动在线适配，学习用户专属交互时机偏好
-- [ProPerSim](https://arxiv.org/abs/2509.21730)（arXiv 2025）
-- [Vinci2](https://arxiv.org/abs/2607.11523)（ECCV 2026）
+- [2026/08] Preference-Driven Online Adaptation for Personalized Interaction Initiation in Proactive AI Assistants. [paper](https://arxiv.org/abs/2608.04416)
+- [2025/09] ProPerSim: Developing Proactive and Personalized AI Assistants through User-Assistant Simulation. [paper](https://arxiv.org/abs/2509.21730)
+- [2026/07] Vinci2: Providing Proactive Assistance in Continuous Egocentric Videos. [paper](https://arxiv.org/abs/2607.11523)
 
 ### 5.4 从结果中学习（用户反馈与主动策略更新）
 
@@ -200,8 +196,8 @@
 
 **代表工作：**
 
-- [ProPerSim](https://arxiv.org/abs/2509.21730)（arXiv 2025）
-- [EOPA](https://arxiv.org/abs/2608.04416)（arXiv 2026）
+- [2025/09] ProPerSim: Developing Proactive and Personalized AI Assistants through User-Assistant Simulation. [paper](https://arxiv.org/abs/2509.21730)
+- [2026/08] Preference-Driven Online Adaptation for Personalized Interaction Initiation in Proactive AI Assistants. [paper](https://arxiv.org/abs/2608.04416)
 
 **本章逻辑：** 按规则提醒 → 预测潜在需要 → 判断是否应该介入 → 学会怎样长期、适度地主动
 
