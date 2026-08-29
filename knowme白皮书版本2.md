@@ -16,6 +16,7 @@
 - [2024/04] A Survey on the Memory Mechanism of Large Language Model based Agents. [paper](https://arxiv.org/abs/2404.13501)
 - [2025/12] Memory in the Age of AI Agents. [paper](https://arxiv.org/abs/2512.13564)
 - [2024/11] Personalization of Large Language Models: A Survey. [paper](https://arxiv.org/abs/2411.00027)
+- [2026/02] Toward Personalized LLM-Powered Agents: Foundations, Evaluation, and Future Directions. [paper](https://arxiv.org/abs/2602.22680)
 - [2023/05] A Survey on Proactive Dialogue Systems: Problems, Methods, and Prospects. [paper](https://arxiv.org/abs/2305.02750)
 - Proactive Conversational AI: A Comprehensive Survey. [paper](https://doi.org/10.1145/3715097)
 
@@ -90,6 +91,7 @@
 - [2025/02] R³Mem: Bridging Memory Retention and Retrieval via Reversible Compression. [paper](https://arxiv.org/abs/2502.15957)
 - [2025/08] Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning. [paper](https://arxiv.org/abs/2508.19828)
 - [2025/08] Building Self-Evolving Agents via Experience-Driven Lifelong Learning: A Framework and Benchmark. [paper](https://arxiv.org/abs/2508.19005)
+- [2025/03] In Prospect and Retrospect: Reflective Memory Management for Long-term Personalized Dialogue Agents. [paper](https://arxiv.org/abs/2503.08026)
 
 ### 3.3 理解特点背后的情境（用户记忆的检索策略）
 
@@ -104,6 +106,7 @@
 - [2024/05] HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models. [paper](https://arxiv.org/abs/2405.14831)
 - [2024/09] MemoRAG: Boosting Long Context Processing with Global Memory-Enhanced Retrieval Augmentation. [paper](https://arxiv.org/abs/2409.05591)
 - [2025/05] MemGuide: Intent-Driven Memory Selection for Goal-Oriented Multi-Session LLM Agents. [paper](https://arxiv.org/abs/2505.20231)
+- [2025/02] On Memory Construction and Retrieval for Personalized Conversational Agents. [paper](https://arxiv.org/abs/2502.05589)
 
 ### 3.4 理解人的变化与不确定性（用户模型构建与人物推断）
 
@@ -141,6 +144,8 @@
 - [2023/04] LaMP: When Large Language Models Meet Personalization. [paper](https://arxiv.org/abs/2304.11406)
 - [2025/07] PRIME: Large Language Model Personalization with Cognitive Dual-Memory and Personalized Thought Process. [paper](https://arxiv.org/abs/2507.04607)
 - [2025/03] Measuring What Makes You Unique: Difference-Aware User Modeling for Enhancing LLM Personalization. [paper](https://arxiv.org/abs/2503.02450)
+- [2024/06] Hello Again! LLM-powered Personalized Agent for Long-term Dialogue. [paper](https://arxiv.org/abs/2406.05925)
+- [2025/11] Mem-PAL: Towards Memory-based Personalized Dialogue Assistants for Long-term User-Agent Interaction. [paper](https://arxiv.org/abs/2511.13410)
 
 ### 4.2 让回答符合个人偏好（回应动作与交互策略选择）
 
@@ -189,6 +194,7 @@
 - [2026/04] PASK: Toward Intent-Aware Proactive Agents with Long-Term Memory. [paper](https://arxiv.org/abs/2604.08000)
 - [2026/07] Vinci2: Providing Proactive Assistance in Continuous Egocentric Videos. [paper](https://arxiv.org/abs/2607.11523)
 - [2024/10] Proactive Agent: Shifting LLM Agents from Reactive Responses to Active Assistance. [paper](https://arxiv.org/abs/2410.12361)
+- [2025/12] ProAgent: Harnessing On-Demand Sensory Contexts for Proactive Agent Systems in the Wild. [paper](https://arxiv.org/abs/2512.06721)
 
 ### 5.2 判断需要是否真实、重要（主动帮助目标与内容规划）
 
@@ -209,6 +215,7 @@
 - [2026/08] Preference-Driven Online Adaptation for Personalized Interaction Initiation in Proactive AI Assistants. [paper](https://arxiv.org/abs/2608.04416)
 - [2025/09] ProPerSim: Developing Proactive and Personalized AI Assistants through User-Assistant Simulation. [paper](https://arxiv.org/abs/2509.21730)
 - [2026/07] Vinci2: Providing Proactive Assistance in Continuous Egocentric Videos. [paper](https://arxiv.org/abs/2607.11523)
+- [2025/09] Sensible Agent: A Framework for Unobtrusive Interaction with Proactive AR Agents. [paper](https://arxiv.org/abs/2509.09255)
 
 ### 5.4 从结果中学习（用户反馈与主动策略更新）
 
